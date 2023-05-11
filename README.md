@@ -1,2 +1,3 @@
-# chess-positional-value-algorithm
 A new value-based way of evaluating a chess position.
+
+Modeling the chess board as a step-value matrix (visualized as a heatmap in Visualizations.xlsx) prioritizes centrality of pieces, a key tenet of most effective chess positions. This approach replaces the traditional 1, 3, 5, 9 valuation of chess pieces by acknowledging pieces' inherent movement capabilities, and aims to summarize chess positions through movement capabilities. The approach rewards mobility (such as uncontested files) and penalizes cumbersome groupings.
